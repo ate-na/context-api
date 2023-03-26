@@ -1,8 +1,9 @@
 const ArticleItem = (props) => {
+  const { title, description } = props.data;
   return (
     <>
-      <p>{props.data.title}</p>
-      <p>{props.data.description}</p>
+      <p>{title}</p>
+      <p>{description}</p>
     </>
   );
 };

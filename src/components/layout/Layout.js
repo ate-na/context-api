@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <>
       <nav>
         <ul
           style={{
@@ -20,7 +19,6 @@ const Layout = () => {
           </li>
         </ul>
       </nav>
-    </>
   );
 };
 export default Layout;
